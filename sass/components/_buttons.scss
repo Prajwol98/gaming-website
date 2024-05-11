@@ -1,0 +1,68 @@
+// .Button-wrapper {
+//   margin: 1.125rem 0px 18px 0px;
+//   border-radius: 8px;
+//   border: 2px solid #000433;
+//   background: #4bb4ff;
+//   box-shadow: -1px -1px 0px 0px #fff, 4px 4px 0px 0px #ff7e00;
+//   a {
+//     display: flex;
+//     padding: 15px 36px;
+//     justify-content: center;
+//     align-items: center;
+//     color: $white;
+//     font-family: $font-primary;
+//     font-size: 0.875rem;
+//     font-weight: 600;
+//     background-color: #4bb4ff;
+//     &:hover {
+//       color: red;
+//     }
+//   }
+//   &:hover {
+//     transition: 3s ease-in-out;
+//   }
+// }
+.Button-wrapper {
+  margin: 1.125rem 0px 18px 0px;
+  border-radius: 8px;
+  border: 2px solid #000433;
+  background: #4bb4ff;
+  box-shadow: -1px -1px 0px 0px #fff, 4px 4px 0px 0px #ff7e00;
+  padding: 15px 36px;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    font-family: $font-primary;
+    font-size: 1rem;
+    font-weight: 600;
+    // background-color: #4bb4ff;
+  }
+  a:hover {
+    color: #000433;
+    text-decoration: underline;
+  }
+}
+.Button-wrapper:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px -1px 7px 2px #e29c23, 1px 0px 0px 0px #e29c23;
+}
+
+.download-btn {
+  margin: 1.125rem 0px 18px 0px;
+  border-radius: 8px;
+  border: 2px solid #000433;
+  box-shadow: -1px -1px 0px 0px #fff, 4px 4px 0px 0px #ff7e00;
+  a {
+    display: flex;
+    padding: 15px 36px;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    font-family: $font-primary;
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: #000433;
+  }
+}

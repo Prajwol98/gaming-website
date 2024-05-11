@@ -1,0 +1,112 @@
+.game-hero-page {
+  position: relative;
+  .game-hero-page-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: black;
+  }
+  .hero-text-wrapper {
+    margin-top: 4.5rem;
+    margin-bottom: 3.25rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .svg-wrapper {
+    }
+    .heading-text {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: $white;
+        font-family: $font-primary;
+        font-size: 3rem;
+        font-weight: 900;
+      }
+    }
+    .para-section {
+      p {
+        color: $white;
+        font-family: $font-primary;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+  }
+  .mainnnn-wrapper {
+    .gif-wrapper {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      margin-bottom: 1.75rem;
+    }
+    .img-wrapper {
+      img {
+        position: absolute;
+        top: -123px;
+        right: 0;
+        object-fit: cover;
+        @media (max-width: 991px) {
+          width: 22%;
+          top: -98px;
+          right: 0;
+        }
+        @media (max-width: 767px) {
+          width: 22%;
+          top: -70px;
+          right: 0;
+        }
+        @media (max-width: 572px) {
+          width: 22%;
+          top: -48px;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+.game-detail-section {
+  position: relative;
+  .game-detail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    background: #000;
+  }
+  .pic-gallery {
+    margin-bottom: 4rem;
+  }
+
+  
+  .mainn-wrapper {
+    margin-bottom: 7.75rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: 767px) {
+      margin-bottom: 2.75rem;
+    }
+    .text-wrapper {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: $white;
+        font-family: $font-primary;
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+    }
+  }
+}

@@ -1,0 +1,175 @@
+// platform-listing
+.platform-listing {
+  position: relative;
+  .platform-gif {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .detail-wrapper {
+    position: relative;
+    display: flex;
+    margin-top: 24.375rem;
+    margin-bottom: 2.1875rem;
+
+    .img-wrapper {
+      margin-right: 2rem;
+
+      img {
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+    }
+
+    .text-info {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: $white;
+        font-family: $font-primary;
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 0;
+      }
+      p {
+        color: $white;
+        font-family: $font-primary;
+        font-size: 1rem;
+        font-weight: 500;
+
+        @media (max-width: 535px) {
+          font-size: 0.8rem;
+        }
+      }
+
+      .Button-wrapper {
+        margin-right: 1.25rem;
+      }
+      .listing-botton {
+        @media (max-width: 767px) {
+          flex-direction: column-reverse;
+        }
+      }
+    }
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+
+      .img-wrapper {
+        order: -1;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+// image-section
+.image-section {
+  position: relative;
+  .image-section-wrapper {
+    background: black;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .register-login {
+    margin-top: 3.1875rem;
+    margin-bottom: 8.125rem;
+    @media (max-width: 991px) {
+      margin-top: 2.1875rem;
+      margin-bottom: 6.125rem;
+    }
+    @media (max-width: 767px) {
+      margin-top: 2.1875rem;
+      margin-bottom: 4.125rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $white;
+      font-family: $font-primary;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+}
+
+// game-listing
+.game-listing {
+  position: relative;
+  .game-img-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    background: #000;
+  }
+  .texttt {
+    margin-top: 7.25rem;
+    margin-bottom: 3rem;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $white;
+      font-family: $font-primary;
+      font-size: 2rem;
+      font-weight: 900;
+    }
+  }
+  .info-wrapper {
+    .mainn-wrappper {
+      margin-bottom: 4rem;
+      .game-img-cards {
+        margin-bottom: 1rem;
+        img {
+          width: 180px;
+          height: 180px;
+          border-radius: 132px;
+          object-fit: cover;
+          @media (max-width: 767px) {
+            height: 120px;
+          }
+          @media (max-width: 575px) {
+            height: 120px;
+          }
+        }
+      }
+      .text-wrapper {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          color: $white;
+          font-family: $font-primary;
+          font-size: 1rem;
+          font-weight: 700;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .Button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6.125rem;
+  }
+}

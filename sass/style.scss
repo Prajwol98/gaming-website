@@ -1,0 +1,47 @@
+/* ALL COLORS START */
+
+$theme-colors: (
+  "primary": #ec2024,
+  "secondary": #f58b1f,
+  "dark": #000000,
+  "light": #f6f8f9,
+);
+
+$primary: #ec2024;
+$secondary: #f58b1f;
+$primary-dark: #d02604;
+$black: #000;
+$white: #fff;
+$grey: rgba(18, 17, 39, 0.56);
+$title-color: #363636;
+$paragraph-color: #545454;
+
+/* ALL COLORS END */
+
+/* ALL FONTS START */
+// font-family: 'Onest', sans-serif;
+
+$font-primary: "Montserrat", sans-serif;
+$font-secondary: "Poppins", sans-serif;
+$font-third: "Archivo Black", sans-serif;
+
+/* ALL COLORS END */
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "base/mixins";
+@import "base/custom-base";
+@import "base/header";
+@import "base/footer";
+@import "base/base";
+@import "components/cards";
+@import "pages/index";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/detail";
+@import "pages/listings";
+@import "pages/contact";
+@import "pages/platform-detail";
+@import "pages/game-detail";
+@import "components/buttons";
+@import "components/slider";
+@import "components/banner";
